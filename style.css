@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@700&family=Libre+Baskerville:wght@700&family=Lobster&family=Poppins:wght@500;700&family=Roboto:wght@400;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0%;
+    font-family: 'Caveat', cursive;
+    font-family: 'Libre Baskerville', serif;  
+    font-family: 'Lobster', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+   
+}
+.container{
+    width: 80%;
+    margin: auto;
+    /* padding: 2%; */
+    background-color:#FFFF;
+
+}
+/* .navlogo{
+    padding-left: 100px;
+    padding-top: 80px;
+} */
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.navbar a{
+    text-decoration: none;
+    color:#3A3A3A;
+}
+.navlogo a{
+    font-size: 24px;
+    line-height: 36px;
+    font-weight: 700;                        
+}
+.navlink a{
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 34px;
+}
+.navlink{
+      
+      padding-top:9px ;
+      /* padding-right: 100px; */
+
+}
+
+/* Infulencer Part */
+
+.infulencer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 150px;
+}
+.infulencer-right{
+   padding-top: 30px;
+         
+}
+.infulencer-left{
+    width: 440px;
+    height: 414px;
+         
+}
+.infulencer-text{
+    font-size: 52px;
+    line-height: 70px;
+    font-weight: 700;
+}
+.infulencer-right p{
+    font-size: 16px;
+    font-weight: 600;
+    margin-bottom: 30px;
+}
+.infulencer-right a{
+    text-decoration: none;
+    background-color:#E02C6D ;
+   
+    color: #FFFFFF;
+    padding: 10px 30px;
+    border-radius: 50px;
+}
+.infulencer-right a:hover{
+    background-color: #e2719b;
+}
+.logos{
+    width: 90%;
+    margin: auto;
+    
+}
+.logo img{
+    padding: 10px;
+    margin-right: 35px;
+
+
+}
+.fa-star,.fa-star-half-alt{
+    font-size: 12px;
+}
+.fa-star.filled,.fas.fa-star-half-alt{
+    color: #FFC014;
+}
+
+.ratings span{
+    font-weight: 700;
+    font-size: 14px;
+}
+.products{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 45px;
+}
+.product-title{
+    font-size: 28px;
+    font-weight: 500;
+    line-height: 40px;
+    margin-bottom: 0px;
+
+
+}
+.product-price{
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 36px;
+    margin-top: 6px;
+    margin-bottom: 0px;
+}
+.product-descriptiom{
+    color: #787885;
+    font-size: 14px;
+    font-weight: 700;
+}
+.next-page{
+    width: 80%;
+    margin: auto;
+    position: relative;
+}
+.next-page>a{ 
+    display: block;
+    text-decoration: none;
+    color: #E02C6D;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.footer{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    
+}
