@@ -200,6 +200,7 @@ body{
     color: #FFFFFF;
     padding: 10px 30px;
     border-radius: 50px;
+ 
 }
 .extra-right a:hover{
     background-color: #e2719b;
@@ -207,7 +208,7 @@ body{
 /* Footer Part */
 .footer{
     width: 100%;
-    margin-top: 15px;
+    /* margin-top: 35px; */
     text-align: center;
     background-color:#0A0826;
 }
